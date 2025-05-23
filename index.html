@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/fe81581617.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paloma Leite | Desinger</title>
+</head>
+<body>
+<main>
+<header>
+    <div class="container">
+      <h1>Paloma Leite</h1>
+     <h2><span class="cursor typewriter-animation">Designer</span></h2>
+    </div>
+   <nav class="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <section id="sobre">
+    <h2>SOBRE MIM</h2>
+    <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, ipsa, amet dolorum voluptates facilis minus mollitia delectus temporibus repellendus, repellat quisquam ut laboriosam quam nam voluptate voluptatem. Obcaecati, nam ad.</span><span>Nisi sint quasi, temporibus laborum ratione accusantium veniam fugit maiores reprehenderit dolores facilis accusamus quisquam similique cum minima ab assumenda vero illo eaque. Cumque aliquid laborum, pariatur deserunt ipsa consequatur.</span></p>
+  </section>
+  <section id="projetos">
+    <h2>PROJETOS</h2>
+    <div class="container-projetos">
+      <div class="projeto1" id="projectItem">
+        <img src="/assets/img/VPPorcelanato.png" alt="VP Porcelanato">
+        <div class="overlay">
+         <p>Cartão de Visita da VP Porcelanato</p>
+        </div>
+      </div>
+      <div class="projeto2" id="projectItem">
+        <img src="/assets/img/Louvorzao.png" alt="Arte do Louvorzão">
+        <p>Convite do Louvorzão da igreja Batista Shalom</p>
+      </div>
+      <div class="projeto3" id="projectItem">
+        <img src="/assets/img/ArteAniversario.png" alt="Aniversario">
+        <p>Arte do aniversario do pastor</p>
+      </div>
+      <div class="projeto4" id="projectItem">
+        <img src="/assets/img/CultoInfantil.png" alt="Culto Infantil">
+        <p>Convite para o culto infantil </p>
+      </div>
+      <div class="projeto5" id="projectItem">
+        <img src="/assets/img/EncontraoJovens.png" alt="Encontrao">
+        <p>Convite do encontrão de Jovens do ministerio Shalom</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contatos">
+    <form action="" method="post">
+      <h2>CONTATO</h2>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" class="input-padrao" required />     
+        <label for="telefone">Telefone para Contato:</label>
+        <input type="tel" id="telefone" name="telefone" class="input-padrao" required/>        
+        <label for="descricao">Descrição do projeto:</label>
+        <textarea id="descricao" name="descricao" rows="10" class="input-texto" required></textarea>      
+        <button onclick="enviaFormulario()">Enviar</button>
+    </form>
+  </section>
+</body>
+</html>
